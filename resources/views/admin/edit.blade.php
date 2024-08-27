@@ -23,7 +23,7 @@
             <div class="col-md-6">
                 <div class="card shadow">
                     <div class="card-header">
-                        <h4>Edit Patient Details</h4>
+                        <h4>Edit Patient's Details</h4>
                     </div>
                     <div class="card-body">
                         <form action="{{ route('admin.update',$patient->id) }}" method="post">
